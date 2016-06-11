@@ -1,6 +1,6 @@
 # leafletjs-plugin-templates
 
-This repository contains boilerplate templates for creating custom control and layer plugins for the [Leaflet](http://leafletjs.com/) JavaScript mapping library:
+This repository contains boilerplate templates for creating custom control and layer plugins for the [Leaflet](http://leafletjs.com/) 1.0 JavaScript mapping library:
 
 * The `control` folder contains the template for creating a Leaflet control plugin.
 * The `layer` folder contains the template for creating a Leaflet layer plugin.
