@@ -39,6 +39,8 @@ L.LeafletLayerTemplate = L.Layer.extend({
     var layerElementClasses = '.leaflet-layer-template leaflet-zoom-hide';
     this._layerElement = L.DomUtil.create(layerElementTag, layerElementClasses);
 
+    // Continue implementing the layer here.
+
     // Add the layer element to the Leaflet pane that holds layers.
     map.getPanes().overlayPane.appendChild(this._layerElement);
 
