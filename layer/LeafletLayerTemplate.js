@@ -16,7 +16,7 @@ L.LeafletLayerTemplate = L.Layer.extend({
      */
     this._latLng = options.latLng;
 
-    // Continue initializing the control plugin here.
+    // Continue initializing the layer plugin here.
   },
 
   /*
