@@ -45,7 +45,7 @@ L.LeafletLayerTemplate = L.Layer.extend({
     // Start listening for Leaflet's viewreset events that are generated when the map is zoomed.
     map.on('viewreset', this._updatePosition, this);
 
-    // Give the layer element the correct initial postion.
+    // Give the layer element the correct initial position.
     this._updatePosition();
   },
 
